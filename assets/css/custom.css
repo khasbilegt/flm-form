@@ -127,3 +127,12 @@ a:focus {
     font-size: 0.75em;
     z-index: 100;
 }
+
+.navbar .navbar-brand {
+    position: absolute;
+    width: 150px;
+    width: 150px;
+    line-height: 30px;
+    color: inherit;
+    /* padding: 10px 15px; */
+}
