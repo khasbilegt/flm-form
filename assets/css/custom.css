@@ -11,7 +11,7 @@ body {
 }
 
 body {
-    font-family: 'Inconsolata', monospace;
+    /* font-family: 'Inconsolata', monospace; */
     color: #141417;
     background: #d0cfc5;
     -webkit-font-smoothing: antialiased;
