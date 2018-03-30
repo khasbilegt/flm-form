@@ -136,3 +136,7 @@ a:focus {
     color: inherit;
     /* padding: 10px 15px; */
 }
+
+.ecommerce-page>.main-raised .section {
+    padding: 40px 0;
+}
