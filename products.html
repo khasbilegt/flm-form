@@ -22,16 +22,25 @@
 </head>
 
 <body class="ecommerce-page">
-
+    <svg class="hidden">
+        <symbol id="icon-menu" viewbox="0 0 17.6 9.9">
+            <title>menu</title>
+            <path d="M17.6,1H0V0h17.6V1z M17.6,4.3h-12v1h12V4.3z M17.6,8.9h-6.9v1h6.9V8.9z"/>
+        </symbol>
+        <symbol id="icon-cross" viewbox="0 0 10.2 10.2">
+            <title>cross</title>
+            <path d="M5.8,5.1l4.4,4.4l-0.7,0.7L5.1,5.8l-4.4,4.4L0,9.5l4.4-4.4L0,0.7L0.7,0l4.4,4.4L9.5,0l0.7,0.7L5.8,5.1z"/>
+        </symbol>
+    </svg>
     <nav class="navbar navbar-expand-lg navbar-absolute navbar-transparent">
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
 
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navigation-example">
-                    <i class="fas fa-bars"></i>
+                    <svg class="nav-icon icon--menu"><use xlink:href="#icon-menu"></use></svg>
                 </button>
-                <a class="navbar-brand" href="http://form.fablab.mn/"><img src="assets/img/logo_final.png" width="100px" alt=""></a>
+                <a class="navbar-brand" href="http://form.fablab.mn/"><img src="assets/img/favicon.png" width="100px" alt=""></a>
             </div>
 
             <div class="collapse navbar-collapse" id="navigation-example">
@@ -48,7 +57,7 @@
                     </li>
                     <li>
                         <a href="contact.html">
-							Contact Us
+							Make A Product
                         </a>
                     </li>
                 </ul>
@@ -88,99 +97,6 @@
     </div>
 
     <div class="main main-raised">
-        <div class="section">
-            <div class="container">
-                <h2 class="section-title">Latest Offers</h2>
-                <div class="row">
-                    <div class="col-md-4">
-                        <div class="card card-product card-plain">
-                            <div class="card-image">
-                                <a href="#pablo">
-                                    <img src="assets/img/keychains/1.jpg" alt="" />
-                                </a>
-                            </div>
-                            <div class="card-content">
-                                <h4 class="card-title">
-                                    <a href="#pablo">Acrylic keychains</a>
-                                </h4>
-                                <p class="card-description">The structured shoulders and sleek detailing ensure a sharp silhouette. Team it with a silk pocket square and leather loafers.</p>
-                                <div class="footer">
-                                    <div class="price-container">
-                                        <span class="price price-old"> &#8366;4999</span>
-                                        <span class="price price-new"> &#8366;2999</span>
-                                    </div>
-                                    <div class="stats">
-                                        <button type="button" rel="tooltip" title="" class="btn btn-just-icon btn-simple btn-rose" data-original-title="Saved to Wishlist">
- 											   <i class="material-icons">favorite</i>
- 										   </button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-4">
-                        <div class="card card-product card-plain">
-                            <div class="card-image">
-                                <a href="#pablo">
-                                    <img src="assets/img/case/1.jpg" alt="" />
-                                </a>
-                            </div>
-
-                            <div class="card-content">
-                                <h4 class="card-title">
-                                    <h4 class="card-title">Wooden gift box</h4>
-                                </h4>
-                                <p class="card-description">The structured shoulders and sleek detailing ensure a sharp silhouette. Team it with a silk pocket square and leather loafers.</p>
-                                <div class="footer">
-                                    <div class="price-container">
-                                        <span class="price price-old"> &#8366;25,999</span>
-                                        <span class="price price-new">&#8366;21,999</span>
-                                    </div>
-                                    <div class="stats">
-                                        <button type="button" rel="tooltip" title="" class="btn btn-just-icon btn-simple btn-rose" data-original-title="Saved to Wishlist">
- 												<i class="material-icons">favorite</i>
-	 										</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-
-                    <div class="col-md-4">
-
-                        <div class="card card-product card-plain">
-                            <div class="card-image">
-                                <a href="#pablo">
-                                    <img src="assets/img/vinyl/1.jpg" alt="" />
-                                </a>
-                            </div>
-
-                            <div class="card-content">
-                                <h4 class="card-title">
-                                    <h4 class="card-title">Dolce & Gabbana</h4>
-                                </h4>
-                                <p class="card-description">The structured shoulders and sleek detailing ensure a sharp silhouette. Team it with a silk pocket square and leather loafers.</p>
-                                <div class="footer">
-                                    <div class="price-container">
-                                        <span class="price price-old"> &#8366;1,430</span>
-                                        <span class="price price-new">&#8366;743</span>
-                                    </div>
-                                    <div class="stats">
-                                        <button type="button" rel="tooltip" title="" class="btn btn-just-icon btn-simple btn-rose" data-original-title="Saved to Wishlist">
- 												<i class="material-icons">favorite</i>
-	 										</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- section -->
-
         <div class="section">
             <div class="container">
                 <h2 class="section-title">Find what you need</h2>
@@ -670,6 +586,98 @@
         </div>
         <!-- section -->
 
+        <div class="section">
+            <div class="container">
+                <h2 class="section-title">Latest Offers</h2>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card card-product card-plain">
+                            <div class="card-image">
+                                <a href="#pablo">
+                                    <img src="assets/img/keychains/1.jpg" alt="" />
+                                </a>
+                            </div>
+                            <div class="card-content">
+                                <h4 class="card-title">
+                                    <a href="#pablo">Acrylic keychains</a>
+                                </h4>
+                                <p class="card-description">The structured shoulders and sleek detailing ensure a sharp silhouette. Team it with a silk pocket square and leather loafers.</p>
+                                <div class="footer">
+                                    <div class="price-container">
+                                        <span class="price price-old"> &#8366;4999</span>
+                                        <span class="price price-new"> &#8366;2999</span>
+                                    </div>
+                                    <div class="stats">
+                                        <button type="button" rel="tooltip" title="" class="btn btn-just-icon btn-simple btn-rose" data-original-title="Saved to Wishlist">
+ 											   <i class="material-icons">favorite</i>
+ 										   </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card card-product card-plain">
+                            <div class="card-image">
+                                <a href="#pablo">
+                                    <img src="assets/img/case/1.jpg" alt="" />
+                                </a>
+                            </div>
+
+                            <div class="card-content">
+                                <h4 class="card-title">
+                                    <h4 class="card-title">Wooden gift box</h4>
+                                </h4>
+                                <p class="card-description">The structured shoulders and sleek detailing ensure a sharp silhouette. Team it with a silk pocket square and leather loafers.</p>
+                                <div class="footer">
+                                    <div class="price-container">
+                                        <span class="price price-old"> &#8366;25,999</span>
+                                        <span class="price price-new">&#8366;21,999</span>
+                                    </div>
+                                    <div class="stats">
+                                        <button type="button" rel="tooltip" title="" class="btn btn-just-icon btn-simple btn-rose" data-original-title="Saved to Wishlist">
+ 												<i class="material-icons">favorite</i>
+	 										</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="col-md-4">
+
+                        <div class="card card-product card-plain">
+                            <div class="card-image">
+                                <a href="#pablo">
+                                    <img src="assets/img/vinyl/1.jpg" alt="" />
+                                </a>
+                            </div>
+
+                            <div class="card-content">
+                                <h4 class="card-title">
+                                    <h4 class="card-title">Dolce & Gabbana</h4>
+                                </h4>
+                                <p class="card-description">The structured shoulders and sleek detailing ensure a sharp silhouette. Team it with a silk pocket square and leather loafers.</p>
+                                <div class="footer">
+                                    <div class="price-container">
+                                        <span class="price price-old"> &#8366;1,430</span>
+                                        <span class="price price-new">&#8366;743</span>
+                                    </div>
+                                    <div class="stats">
+                                        <button type="button" rel="tooltip" title="" class="btn btn-just-icon btn-simple btn-rose" data-original-title="Saved to Wishlist">
+ 												<i class="material-icons">favorite</i>
+	 										</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- section -->
     </div>
     <!-- end-main-raised -->
 
@@ -741,5 +749,32 @@
 
 <!--    Control Center for Material Kit: activating the ripples, parallax effects, scripts from the example pages etc    -->
 <script src="assets/js/material-kit.js?v=1.2.1" type="text/javascript"></script>
+
+<script type="text/javascript">
+    $(document).ready(function() {
+
+        var slider2 = document.getElementById('sliderRefine');
+
+        noUiSlider.create(slider2, {
+            start: [42, 880],
+            connect: true,
+            range: {
+                'min': [30],
+                'max': [900]
+            }
+        });
+
+        var limitFieldMin = document.getElementById('price-left');
+        var limitFieldMax = document.getElementById('price-right');
+
+        slider2.noUiSlider.on('update', function(values, handle) {
+            if (handle) {
+                limitFieldMax.innerHTML = $('#price-right').data('currency') + Math.round(values[handle]);
+            } else {
+                limitFieldMin.innerHTML = $('#price-left').data('currency') + Math.round(values[handle]);
+            }
+        });
+    });
+</script>
 
 </html>
