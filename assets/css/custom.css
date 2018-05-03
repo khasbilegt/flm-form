@@ -193,10 +193,9 @@ a:focus {
         color: #2d2d30
     }
 
-    .nav-animation a::before {
+    .nav-animation a:hover::before {
         color: #000;
         border-bottom: none;
-
     }
 }
 
@@ -261,10 +260,6 @@ a:focus {
     font-weight: 400;
     font-size: 1.2em;
     text-shadow: 2px 2px 10px #2e2e30;
-}
-
-p.description {
-    text-align: center;
 }
 
 .card .card-image img,
