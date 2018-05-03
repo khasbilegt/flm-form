@@ -237,7 +237,8 @@ a:focus {
     height: 150px;
 }
 
-.subscribe-line.subscribe-line-image {
+.subscribe-line.subscribe-line-image,
+.page-header {
     background-size: contain;
 }
 

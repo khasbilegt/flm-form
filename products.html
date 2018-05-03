@@ -12,7 +12,8 @@
   <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
 
   <!--     Fonts and icons     -->
-  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons"/>
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons"
+  />
   <link rel="stylesheet" type="text/css" href="assets/css/fa-svg-with-js.css">
 
   <!-- CSS Files -->
@@ -33,67 +34,41 @@
     </symbol>
   </svg>
   <nav class="navbar navbar-expand-lg navbar-absolute navbar-transparent">
-    <div class="container">
-      <!-- Brand and toggle get grouped for better mobile display -->
-      <div class="navbar-header">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-stack">
+        <svg class="nav-icon icon--menu">
+          <use xlink:href="#icon-menu"></use>
+        </svg>
+      </button>
+      <a class="navbar-brand" href="index.html">
+        <img src="assets/img/form/favicon.png" width="auto" height="100%" alt="#Form logo">
+      </a>
+    </div>
 
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navigation-example">
-          <svg class="nav-icon icon--menu">
-            <use xlink:href="#icon-menu"></use>
-          </svg>
-        </button>
-        <a class="navbar-brand" href="http://form.fablab.mn/">
-          <img src="assets/img/favicon.png" width="100px" alt="">
-        </a>
-      </div>
-
-      <div class="collapse navbar-collapse" id="navigation-example">
-        <ul class="nav navbar-nav navbar-center">
-          <li>
-            <a href="index.html">
-              Home
-            </a>
-          </li>
-          <li>
-            <a href="#pablo">
-              Products
-            </a>
-          </li>
-          <li>
-            <a href="contact.html">
-              Make A Product
-            </a>
-          </li>
-        </ul>
-        <ul class="nav navbar-nav navbar-right">
-          <li>
-            <a href="https://www.facebook.com/#form">
-              <i class="fab fa-facebook-square"></i>
-            </a>
-          </li>
-          <li>
-            <a href="https://www.instagram.com/#form">
-              <i class="fab fa-instagram"></i>
-            </a>
-          </li>
-          <li>
-            <a href="https://twitter.com/#form">
-              <i class="fab fa-pinterest"></i>
-            </a>
-          </li>
-        </ul>
-      </div>
+    <div class="collapse navbar-collapse" id="navbar-stack">
+      <ul class="nav navbar-nav navbar-right">
+        <li class="nav-animation">
+          <a href="products.html" data-hover="Бүтээгдэхүүн">
+            Бүтээгдэхүүн
+          </a>
+        </li>
+        <li class="nav-animation">
+          <a href="contact.html" data-hover="Хамтран&nbsp;ажиллах">
+            Хамтран ажиллах
+          </a>
+        </li>
+      </ul>
     </div>
   </nav>
 
 
-  <div class="page-header header-filter header-small" data-parallax="true" style="background-image: url('assets/img/img3.jpg');">
+  <div class="page-header header-filter header-small" data-parallax="true" style="background-image: url('assets/img/pattern/4.jpg');">
     <div class="container">
       <div class="row">
         <div class="col-md-12">
           <div class="brand">
-            <h1 class="title">Our products!</h1>
-            <!-- <h4>Free global delivery for all products. Use coupon <b>25summer</b> for an extra 25% Off</h4> -->
+            <h1 class="title">Бүтээгдэхүүнүүд!</h1>
           </div>
         </div>
       </div>
@@ -663,42 +638,39 @@
 
   <!--     *********    SIMPLE FOOTER     *********      -->
 
-  <footer class="footer">
-    <div class="container">
-      <nav class="pull-left">
+  <!--     *********    FOOTER     *********      -->
+  <footer class="footer ">
+    <div class="container ">
+      <nav class="pull-left ">
         <ul>
           <li>
-            <a href="http://www.creative-tim.com">
-              Home
+            <a href="index.html ">
+              Нүүр
             </a>
           </li>
           <li>
-            <a href="http://presentation.creative-tim.com">
-              Products
+            <a href="products.html ">
+              Бүтээгдэхүүн
             </a>
           </li>
           <li>
-            <a href="http://blog.creative-tim.com">
-              Contact Us
-            </a>
-          </li>
-          <li>
-            <a href="http://www.creative-tim.com/license">
-              About Us
+            <a href="contact.html ">
+              Хамтран ажиллах
             </a>
           </li>
         </ul>
       </nav>
-      <div class="copyright pull-right">
+      <div class="copyright pull-right ">
         Copyright &copy;
         <script>
           document.write(new Date().getFullYear())
         </script>, #form
-        <i class="fal fa-code"></i> made with
-        <i class="fal fa-heart"></i> by FAB LAB.
+        <i class="fal fa-code "></i> made with
+        <i class="fal fa-heart "></i> by FAB LAB.
       </div>
     </div>
   </footer>
+  <!--     *********   END FOOTER     *********      -->
 
   <!--     *********   END SIMPLE FOOTER     *********      -->
 
