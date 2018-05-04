@@ -252,14 +252,16 @@ a:focus {
 }
 
 .subscribe-line.subscribe-line-image:after {
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: rgba(0, 0, 0, 0.0);
 }
 
-.text-center p.description {
-    color: #fff;
-    font-weight: 400;
-    font-size: 1.2em;
-    text-shadow: 2px 2px 10px #2e2e30;
+.subscribe-line h3.title {
+    color: #7C1F8C !important;
+    font-family: 'Roboto';
+    text-transform: uppercase;
+    text-outline: 5px 2px #fff;
+    font-weight: 900;
+    font-size: 2em;
 }
 
 .card .card-image img,
