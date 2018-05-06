@@ -256,10 +256,10 @@ a:focus {
 }
 
 .subscribe-line h3.title {
-    color: #7C1F8C !important;
+    color: #9C27B0 !important;
     font-family: 'Roboto';
     text-transform: uppercase;
-    text-outline: 5px 2px #fff;
+    text-shadow: 0px 0px 10px rgb(78, 76, 76);
     font-weight: 900;
     font-size: 2em;
 }
